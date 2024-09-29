@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 10px 0;
+    background-color: #7FAFDB;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    user-select: none;
+}
+nav{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.nav_cl{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.nav_cl:hover{
+    background-color: #456f96;
+    border-radius: 10px;
+}
+
+.icon_link{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Merriweather;
+}
+main{
+    background-color: #D4F3FD;
+} 
+#searchInput{
+    font-size: 16px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    margin-right: 5px;
+}
+#searchButton{
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #B2D7F9;
+    color: #2F6BB2;
+    cursor: pointer;
+}
+#searchButton:hover{
+    background-color: #68a8e0;
+}
+ /* Загальні стилі
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  #searchForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  #searchInput {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  form input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  form input[type='submit'] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type='submit']:hover {
+    background-color: #575757;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button a {
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #575757;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    list-style: none;
+    margin: 0 10px;
+  } */
+  

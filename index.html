@@ -12,62 +12,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-  <style>
-    nav{
-      ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #7FAFDB;
-      }
-
-      li {
-        float: left;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: #456f96;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
       <ul style="list-style-type:none;">
         <li>
-          <img src=".\images\icon.png" alt="Icon" height="80">
+          <a href="index.html"><img src=".\images\icon.png" alt="Icon" height="80"></a>
         </li>
         <li>
-          <h1 style="font-family: Josefin Slab; ">Your diary</h1>
+          <h1 style="font-family: Josefin Slab;">Your diary</h1>
         </li>
+        <li><a href="index.html" class="nav_cl">Головна</a></li>
+        <li><a href="#" class="nav_cl">Вхід</a></li>
+        <li><a href="#" class="nav_cl">Реєстрація</a></li>
+        <li><a href="#" class="nav_cl">Контакти</a></li>
         <li>
-          <form id="searchForm">
-           <input type="text" id="searchInput" placeholder="Пошук" required style="font-family: Merriweather;">
-           <button type="submit" style="font-family: Merriweather;">Шукати</button>
-          </form>
+          <input type="text" id="searchInput" placeholder="Пошук" required style="font-family: Merriweather;">
+          <button type="submit" id="searchButton" style="font-family: Merriweather;">Шукати</button>
         </li>
-        <li style="font-family: Merriweather;"><a href="index.html">Головна</a></li>
-        <li style="font-family: Merriweather;"><a href="">Вхід</a></li>
-        <li style="font-family: Merriweather;"><a href="">Реєстрація</a></li>
-        <li style="font-family: Merriweather;"><a href="">Контакти</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <img src=".\images\main_img.jpg" alt="Main Image" height="400">
-    <table style="font-family: Merriweather; border: 1px solid black;">
+    <table style="border: 1px solid black;">
       <tr>
         <th>Можливість</th>
         <th>Наявність</th>
@@ -81,11 +52,11 @@
         <td>Так</td>
       </tr>
     </table>
-    <p style="font-family: Merriweather ;">Вітаємо вас на веб-сайті для ведення щоденника! <br> 
+    <p>Вітаємо вас на веб-сайті для ведення щоденника! <br> 
       Тут ви можете поділитися своїми думками та зберігати їх у своєму профілі як приватно, так і публічно. <br>
       Також ви можете переглядати публікації інших користувачів та реагувати на них.
       Приєднуйтесь прямо зараз!</p>
-    <form style="font-family: Merriweather;">
+    <form>
         Ім'я:<br>
          <input type='text' name='firstname' placeholder="Чупакабра" style="font-family: Merriweather;" required><br>
         Бажаний нік:<br>
@@ -98,7 +69,7 @@
   </main>
 
   <footer>
-    <ul style="list-style-type:none; font-family: Merriweather;">
+    <ul style="list-style-type:none;">
       <li>Instagram</li>
       <li>Telegram channel</li>
     </ul>
