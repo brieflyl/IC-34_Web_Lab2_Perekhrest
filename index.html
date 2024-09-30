@@ -12,67 +12,80 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <nav>
+  <div id="wrapper">
+    <header>
+      <nav>
+        <ul style="list-style-type:none;">
+          <li>
+            <a href="index.html"><img src=".\images\icon.png" alt="Icon" height="80"></a>
+          </li>
+          <li>
+            <h1 style="font-family: Josefin Slab;">Your diary</h1>
+          </li>
+          <li><a href="index.html" class="nav_cl">Головна</a></li>
+          <li><a href="#" class="nav_cl">Вхід</a></li>
+          <li><a href="#" class="nav_cl">Реєстрація</a></li>
+          <li><a href="#" class="nav_cl">Контакти</a></li>
+          <li>
+            <input type="text" id="searchInput" placeholder="Пошук" required>
+            <button type="submit" id="searchButton">Шукати</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="main_cont">
+        <img src=".\images\main_img.jpg" alt="Main Image" height="400">
+        <div class="text-content">
+          <p>Вітаємо вас на веб-сайті для ведення щоденника! <br> 
+            Тут ви можете поділитися своїми думками та зберігати їх у своєму профілі як приватно, так і публічно. <br>
+            Також ви можете переглядати публікації інших користувачів та реагувати на них. <br><br>
+            Приєднуйтесь прямо зараз!</p>
+          <table>
+            <tr>
+              <th>Можливість</th>
+              <th>Наявність</th>
+            </tr>
+            <tr>
+              <td>Публікувати записи</td>
+              <td>Так</td>
+            </tr>
+            <tr>
+              <td>Робити записи приватними</td>
+              <td>Так</td>
+            </tr>
+          </table>
+          <form class="styled-form">
+            <label for="firstname">Ім'я:</label><br>
+            <input type='text' id="firstname" name='firstname' placeholder="Ім'я" required><br>
+
+            <label for="email">Пошта:</label><br>
+            <input type='email' id="email" name='email' placeholder="email@gmail.com" required><br><br>
+
+            <label for="nickname">Бажаний нік:</label><br>
+            <input type='text' id="nickname" name='nickname' placeholder="coolnickname123" required><br><br>
+            
+            <input type="submit" value="Зареєструватись">
+          </form>
+        </div>
+      </div>
+
+      <button id="descrButton"><a href="description.html" style="text-decoration: none;" >Опис предметної галузі</a></button>
+
+    </main>
+
+    <footer>
       <ul style="list-style-type:none;">
-        <li>
-          <a href="index.html"><img src=".\images\icon.png" alt="Icon" height="80"></a>
-        </li>
-        <li>
-          <h1 style="font-family: Josefin Slab;">Your diary</h1>
-        </li>
-        <li><a href="index.html" class="nav_cl">Головна</a></li>
-        <li><a href="#" class="nav_cl">Вхід</a></li>
-        <li><a href="#" class="nav_cl">Реєстрація</a></li>
-        <li><a href="#" class="nav_cl">Контакти</a></li>
-        <li>
-          <input type="text" id="searchInput" placeholder="Пошук" required style="font-family: Merriweather;">
-          <button type="submit" id="searchButton" style="font-family: Merriweather;">Шукати</button>
-        </li>
+        <li>Instagram</li>
+        <li>Telegram channel</li>
       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <img src=".\images\main_img.jpg" alt="Main Image" height="400">
-    <table style="border: 1px solid black;">
-      <tr>
-        <th>Можливість</th>
-        <th>Наявність</th>
-      </tr>
-      <tr>
-        <td>Публікувати записи</td>
-        <td>Так</td>
-      </tr>
-      <tr>
-        <td>Робити записи приватними</td>
-        <td>Так</td>
-      </tr>
-    </table>
-    <p>Вітаємо вас на веб-сайті для ведення щоденника! <br> 
-      Тут ви можете поділитися своїми думками та зберігати їх у своєму профілі як приватно, так і публічно. <br>
-      Також ви можете переглядати публікації інших користувачів та реагувати на них.
-      Приєднуйтесь прямо зараз!</p>
-    <form>
-        Ім'я:<br>
-         <input type='text' name='firstname' placeholder="Чупакабра" style="font-family: Merriweather;" required><br>
-        Бажаний нік:<br>
-         <input type='text' name='nickname' placeholder="chupakabra12" style="font-family: Merriweather;" required><br><br>
-         <input type="submit" value="Зареєструватись" style="font-family: Merriweather;"><br><br>
-    </form>
-
-    <button style="font-family: Merriweather;"><a href="description.html" style="text-decoration: none;" >Опис предметної галузі</a></button>
-
-  </main>
-
-  <footer>
-    <ul style="list-style-type:none;">
-      <li>Instagram</li>
-      <li>Telegram channel</li>
-    </ul>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
