@@ -47,11 +47,11 @@ nav ul {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
 }
 .nav_cl:hover{
   background-color: #456f96;
-  border-radius: 10px;
 }
 
 .icon_link{
